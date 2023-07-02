@@ -5,7 +5,7 @@ import { AppBar, SideBar } from '@/components/globals'
 import './globals.css'
 
 export const metadata = {
-  title: 'Finvisor',
+  title: 'FinVisor',
   description: 'App for managing your finances',
 }
 

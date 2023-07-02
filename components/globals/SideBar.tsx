@@ -3,7 +3,6 @@ import { BanknotesIcon, BellAlertIcon, CircleStackIcon, CogIcon, CreditCardIcon,
 
 // default imports
 import NavLink from '../NavLink'
-import { useState } from 'react'
 
 const sideBarLinks = [
   {
