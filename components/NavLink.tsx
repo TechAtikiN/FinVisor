@@ -17,7 +17,7 @@ const NavLink = ({ sideBarLinks }: Props) => {
       {sideBarLinks.map((link) => {
         return (
           <Link
-            className={`flex ${pathname === link.path ? 'text-white bg-[#191825]' : 'text-gray-400'} px-4 py-3 rounded-l-full hover:text-white items-center space-x-4 text-lg font-semibold`}
+            className={`flex ${pathname === link.path ? 'text-white bg-[#191825]' : 'text-gray-600'} px-4 py-3 rounded-l-full hover:text-white items-center space-x-4 text-lg font-semibold`}
             href={link.path}
           >
             <p className='h-6 w-6'>{link.icon}</p>
