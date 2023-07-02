@@ -48,7 +48,7 @@ const sideBarLinks2 = [
 const SideBar = () => {
   return (
     <div className='min-h-screen flex flex-col'>
-      <h2 className='font-bold text-black text-3xl underline my-4 mt-8 text-center'>FinVisor.</h2>
+      <h2 className='font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#94a8d2] via-sky-300 to-[#f9a7ba] text-3xl underline my-4 mt-8 text-center'>FinVisor.</h2>
 
       <div className='flex flex-col mx-8 space-y-2 mt-10'>
         <NavLink sideBarLinks={sideBarLinks} />

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0rem;
+}
+
+@layer components {
+  .pay-label {
+    @apply text-gray-200 text-base;
+  }
+
+  .pay-input {
+    @apply text-gray-200 text-lg focus:outline-none px-3 py-2 rounded-lg bg-[#000000];
+  }
+}
