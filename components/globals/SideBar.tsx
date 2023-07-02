@@ -50,7 +50,7 @@ const SideBar = () => {
     <div className='min-h-screen flex flex-col'>
       <h2 className='font-bold text-black text-3xl underline my-4 mt-8 text-center'>FinVisor.</h2>
 
-      <div className='flex flex-col ml-16 space-y-2 mt-10'>
+      <div className='flex flex-col mx-8 space-y-2 mt-10'>
         <NavLink sideBarLinks={sideBarLinks} />
         <div className='absolute bottom-7'>
           <NavLink sideBarLinks={sideBarLinks2} />

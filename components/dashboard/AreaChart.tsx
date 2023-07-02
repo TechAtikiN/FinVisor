@@ -1,4 +1,5 @@
 'use client'
+// named imports
 import { CategoryScale } from 'chart.js'
 import { Line } from 'react-chartjs-2'
 import { Chart as ChartJS, registerables } from 'chart.js'
@@ -62,7 +63,7 @@ const App = () => {
             },
             legend: {
               display: true,
-              position: 'top',
+              position: 'left',
               fullSize: false,
             }
           }
