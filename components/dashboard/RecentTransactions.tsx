@@ -2,8 +2,8 @@ import { recentTransactions } from '@/utils/dashboardData'
 
 const RecentTransactions = () => {
   return (
-    <div className='m-5 mt-2 w-1/2 bg-[#262631] rounded-lg p-4'>
-      <p className='text-xl text-left font-semibold'>Recent Transactions</p>
+    <div className='ml-5 w-full mt-2 bg-[#262631] rounded-lg p-4'>
+      <p className='text-xl text-left font-semibold pb-3'>Recent Transactions</p>
       <div className='h-[260px] overflow-x-hidden overflow-y-scroll'>
         {recentTransactions.map((transaction, index) => (
           <div className='flex justify-between items-start mt-5 border-b border-gray-700'>

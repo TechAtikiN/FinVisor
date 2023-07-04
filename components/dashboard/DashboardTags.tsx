@@ -4,9 +4,9 @@ import { EllipsisHorizontalIcon } from '@heroicons/react/24/solid'
 
 const DashboardTags = () => {
   return (
-    <div className='m-5 grid grid-cols-2 gap-x-8 gap-y-8'>
+    <div className='m-5 grid grid-cols-2 gap-x-6 gap-y-5'>
       {tags.map((tag, index) => (
-        <div className='p-4 rounded-lg bg-[#262631] w-56'>
+        <div key={index} className='p-4 rounded-lg bg-[#262631] w-48'>
           <div className='flex justify-between'>
             <p className='p-1 bg-[#FFC6D3] rounded-lg text-black h-8 w-8'>{tag.icon}</p>
             <EllipsisHorizontalIcon className='h-8 w-8' />
