@@ -34,11 +34,6 @@ const sideBarLinks = [
 
 const sideBarLinks2 = [
   {
-    name: 'Notifications',
-    path: '/notifications',
-    icon: <BellAlertIcon />,
-  },
-  {
     name: 'Settings',
     path: '/settings',
     icon: <CogIcon />,
@@ -48,12 +43,21 @@ const sideBarLinks2 = [
 const SideBar = () => {
   return (
     <div className='min-h-screen flex flex-col'>
-      <h2 className='font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#94a8d2] via-sky-300 to-[#f9a7ba] text-3xl underline my-4 mt-8 text-center'>FinVisor.</h2>
+      <h2 className='font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#94a8d2] via-sky-300 to-[#f9a7ba] text-3xl underline my-4 mt-5 text-center'>FinVisor.</h2>
 
       <div className='flex flex-col mx-8 space-y-2 mt-10'>
         <NavLink sideBarLinks={sideBarLinks} />
         <div className='absolute bottom-7'>
-          <NavLink sideBarLinks={sideBarLinks2} />
+          <div className='flex items-center space-x-5'>
+            <img
+              className='h-10 w-10 rounded-full hover:cursor-pointer'
+              src='https://writestylesonline.com/wp-content/uploads/2021/02/Michele-Round-Circle-2020.png'
+            />
+            <div className='space-y-2'>
+              <p className='text-gray-200 text-left border-b border-sky-400 w-1/2'>Jenna Smith</p>
+              <p className='text-white font-semibold text-left'>jennasmith@gmail.com</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

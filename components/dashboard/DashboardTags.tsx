@@ -9,7 +9,7 @@ const DashboardTags = () => {
         <div key={index} className='p-4 rounded-lg bg-[#262631] w-48'>
           <div className='flex justify-between'>
             <p className='p-1 bg-[#FFC6D3] rounded-lg text-black h-8 w-8'>{tag.icon}</p>
-            <EllipsisHorizontalIcon className='h-8 w-8' />
+            <EllipsisHorizontalIcon className='h-8 hover:cursor-pointer w-8' />
           </div>
           <p className='mt-3 text-gray-300 font-semibold text-xl'>{tag.name}</p>
 
