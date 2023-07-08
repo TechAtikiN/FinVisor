@@ -6,7 +6,6 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-      <p className='text-2xl my-5 mx-3 font-semibold'>Dashboard</p>
       <div className='grid grid-cols-3 gap-x-5 gap-y-2 m-1'>
 
         {/* money flow */}
@@ -47,8 +46,7 @@ export default function Home() {
             </div>
 
             <div className='flex space-x-2 items-center space-y-2'>
-              <label className='pay-label' htmlFor=''>Enter Amount</label>
-              <input className='pay-input' type='text' />
+              <input className='pay-input' type='text' placeholder='Enter Amount' />
               <button className='px-3 py-2 flex justify-center items-center rounded-lg text-white font-semibold bg-sky-400 w-40 animate-pulse'>Send<ArrowUpRightIcon className='h-4 text-white font-extrabold w-4' /></button>
             </div>
           </div>
