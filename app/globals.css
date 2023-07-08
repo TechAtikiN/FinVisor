@@ -14,4 +14,8 @@
   .pay-input {
     @apply text-gray-200 text-lg focus:outline-none border-x-[1px] border-sky-200 opacity-40 px-3 py-2 rounded-lg bg-[#000000];
   }
+
+  .cards-btn {
+    @apply px-3 py-2 text-xl font-semibold hover:text-white hover:bg-gray-800 hover:bg-opacity-90 rounded-lg
+  }
 }
