@@ -34,7 +34,7 @@ export default function Home() {
         {/* quick tranfer */}
         <div className='mx-5 mt-2 justify-start bg-[#262631] rounded-lg p-4'>
           <div className='flex flex-col w-full justify-center space-y-4'>
-            <p className='text-xl text-left font-semibold'>Quick Transfer</p>
+            <p className='text-xl text-left font-semibold mt-5'>Quick Transfer</p>
             <div className='flex flex-col space-y-2'>
               <label className='pay-label' htmlFor=''>Enter Receipient Name</label>
               <input className='pay-input' type='text' />
@@ -46,7 +46,7 @@ export default function Home() {
             </div>
 
             <div className='flex space-x-2 items-center space-y-2'>
-              <input className='pay-input' type='text' placeholder='Enter Amount' />
+              <input className='pay-input text-gray-300' type='text' placeholder='Enter Amount' />
               <button className='px-3 py-2 flex justify-center items-center rounded-lg text-white font-semibold bg-sky-400 w-40 animate-pulse'>Send<ArrowUpRightIcon className='h-4 text-white font-extrabold w-4' /></button>
             </div>
           </div>

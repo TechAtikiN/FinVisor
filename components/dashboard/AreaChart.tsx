@@ -62,6 +62,7 @@ const App = () => {
       }
     }
   }
+
   ChartJS.register(...registerables, CategoryScale)
   ChartJS.defaults.color = '#FDF5E6';
   return (

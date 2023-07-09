@@ -1,3 +1,5 @@
+import { FireIcon } from '@heroicons/react/24/solid'
+
 export { default as NavLink } from './NavLink'
 
 // dashboard components
@@ -10,3 +12,6 @@ export { default as UpcomingBills } from './dashboard/UpcomingBills'
 export { default as CardComponent } from './cards/CardComponent'
 export { default as DoughnutChart } from './cards/DoughnutChart'
 export { default as BarChart } from './cards/BarChart'
+
+// investment components
+export { default as InvestmentAreaChart } from './investments/InvestmentAreaChart'

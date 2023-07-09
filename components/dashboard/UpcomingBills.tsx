@@ -3,7 +3,7 @@ import { upcomingBills } from '@/utils/dashboardData'
 const UpcomingBills = () => {
   return (
     <div className='w-full mt-2 -mr-5 ml-5 bg-[#262631] rounded-lg p-4'>
-      <p className='text-xl text-left pb-3 font-semibold'>Upcoming Bills</p>
+      <p className='text-xl text-left pb-3 font-semibold mt-5'>Upcoming Bills</p>
       <div className='h-[260px] overflow-x-hidden overflow-y-scroll'>
         {upcomingBills.map((transaction, index) => (
           <div className='flex justify-between items-start mt-5 border-b border-gray-700'>

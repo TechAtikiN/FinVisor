@@ -18,4 +18,8 @@
   .cards-btn {
     @apply px-3 py-2 text-xl font-semibold hover:text-white hover:bg-gray-800 hover:bg-opacity-90 rounded-lg
   }
+
+  .investment-chart-btn {
+    @apply px-3 py-2 text-xl font-semibold hover:text-white hover:bg-gray-700 hover:bg-opacity-90 rounded-lg 
+  }
 }
