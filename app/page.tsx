@@ -1,8 +1,9 @@
 // named imports
 import { AreaChart, DashboardTags, RecentTransactions, UpcomingBills } from '@/components'
-import { tags } from '@/utils/dashboardData'
-import { ArrowUpRightIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid'
-import Image from 'next/image'
+import { ArrowUpRightIcon } from '@heroicons/react/24/solid'
+
+// default imports
+
 export default function Home() {
   return (
     <>

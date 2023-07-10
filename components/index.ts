@@ -15,3 +15,6 @@ export { default as BarChart } from './cards/BarChart'
 
 // investment components
 export { default as InvestmentAreaChart } from './investments/InvestmentAreaChart'
+export { default as DiversificationChart } from './investments/DiversificationChart'
+export { default as News } from './investments/News'
+export { default as NewsComponent} from './investments/NewsComponent'

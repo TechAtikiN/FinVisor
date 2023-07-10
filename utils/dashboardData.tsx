@@ -1,4 +1,4 @@
-import { BanknotesIcon, ChartBarIcon, ChartBarSquareIcon, CurrencyDollarIcon, DocumentChartBarIcon, WalletIcon } from '@heroicons/react/24/solid'
+import { BanknotesIcon, ChartBarIcon, ChartBarSquareIcon, CurrencyDollarIcon, DocumentChartBarIcon, QueueListIcon, WalletIcon } from '@heroicons/react/24/solid'
 
 export const tags = [
   {
@@ -80,5 +80,32 @@ export const upcomingBills = [
     name: 'Medium Corportaion',
     value: '$12.95',
     date: '12/06/2023',
+  },
+]
+
+export const investingOptions = [
+  {
+    icon: <ChartBarIcon />,
+    name: 'Stocks',
+    value: '$2300.25',
+    percent: '+1.4%'
+  },
+  {
+    icon: <WalletIcon />,
+    name: 'FD & Savings',
+    value: '$2300.25',
+    percent: '-1.4%'
+  },
+  {
+    icon: <QueueListIcon />,
+    name: 'Mutual Funds',
+    value: '$530.25',
+    percent: '-0.54%'
+  },
+  {
+    icon: <ChartBarSquareIcon />,
+    name: 'Crypto',
+    value: '$9800.25',
+    percent: '+0.24%'
   },
 ]

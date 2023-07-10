@@ -32,7 +32,7 @@ const App = () => {
   ChartJS.register(...registerables, CategoryScale)
   ChartJS.defaults.color = '#FDF5E6';
   return (
-    <div className=''>
+    <div className='mt-1'>
       <Line
         width={600}
         height={300}
