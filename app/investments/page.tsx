@@ -3,11 +3,10 @@
 import { useState } from 'react'
 import { ArrowTrendingUpIcon, EllipsisHorizontalIcon } from '@heroicons/react/24/solid'
 import { DiversificationChart, InvestmentAreaChart, News } from '@/components'
-import { investingOptions, recentTransactions } from '@/utils/dashboardData'
+import { investingOptions } from '@/utils/dashboardData'
 
 const Investments = () => {
   const [selectedDuration, setSelectedDuration] = useState('1w')
-
 
   return (
     <div className='m-5 grid grid-cols-3'>
