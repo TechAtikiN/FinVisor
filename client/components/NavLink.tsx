@@ -13,9 +13,10 @@ const NavLink = ({ sideBarLinks }: Props) => {
   const pathname = usePathname()
   return (
     <>
-      {sideBarLinks.map((link) => {
+      {sideBarLinks.map((link, index) => {
         return (
           <Link
+            key={index}
             className={`flex ${pathname === link.path ? 'text-white rounded-full border-x-4 bg-[#3A4F7A] opacity-70 border-[#000000]' : 'border-x-4 border-transparent text-gray-400'} px-4 py-3 hover:text-gray-100 items-center space-x-4 text-xl font-semibold`}
             href={link.path}
           >

@@ -22,4 +22,12 @@
   .investment-chart-btn {
     @apply px-3 py-2 text-xl font-semibold hover:text-white hover:bg-gray-700 hover:bg-opacity-90 rounded-lg 
   }
+
+  .profile-label {
+    @apply text-xl text-gray-400 font-semibold
+  }
+
+  .profile-data {
+    @apply text-lg text-gray-200 font-bold
+  }
 }

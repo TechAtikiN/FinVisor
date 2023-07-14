@@ -6,7 +6,7 @@ const UpcomingBills = () => {
       <p className='text-xl text-left pb-3 font-semibold mt-5'>Upcoming Bills</p>
       <div className='h-[260px] overflow-x-hidden overflow-y-scroll'>
         {upcomingBills.map((transaction, index) => (
-          <div className='flex justify-between items-start mt-5 border-b border-gray-700'>
+          <div key={index} className='flex justify-between items-start mt-5 border-b border-gray-700'>
             <div className='flex items-center space-x-4'>
               <div className='p-1 bg-gray-100 rounded-full text-black h-8 w-8' />
               <div>

@@ -3,6 +3,7 @@ import { BanknotesIcon, BellAlertIcon, CircleStackIcon, CogIcon, CreditCardIcon,
 
 // default imports
 import NavLink from '../NavLink'
+import Image from 'next/image'
 
 const sideBarLinks = [
   {
@@ -49,7 +50,10 @@ const SideBar = () => {
         <NavLink sideBarLinks={sideBarLinks} />
         <div className='absolute bottom-7'>
           <div className='flex items-center space-x-5'>
-            <img
+            <Image
+              height={40}
+              width={40}
+              alt='profile picture'
               className='h-10 w-10 rounded-full hover:cursor-pointer'
               src='https://writestylesonline.com/wp-content/uploads/2021/02/Michele-Round-Circle-2020.png'
             />

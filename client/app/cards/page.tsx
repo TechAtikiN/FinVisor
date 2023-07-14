@@ -12,14 +12,14 @@ const recentTransactions = [
     icon: <ShoppingBagIcon />
   },
   {
-    id: 1,
+    id: 2,
     name: 'Xbox One',
     amount: '-400',
     date: '01/07/2023',
     icon: <PuzzlePieceIcon />
   },
   {
-    id: 1,
+    id: 3,
     name: 'Stationary',
     amount: '-60',
     date: '5/07/2023',
@@ -54,7 +54,7 @@ const Cards = () => {
             <p className='text-xl text-left font-semibold'>Recent Transactions</p>
             <div className='space-y-4 mt-4'>
               {recentTransactions.map((transaction) => (
-                <div className='flex justify-between items-center mt-3 mx-8 border-b-[1px] border-slate-700 hover:bg-gray-800 p-2 rounded-lg hover:cursor-pointer'>
+                <div key={transaction.id} className='flex justify-between items-center mt-3 mx-8 border-b-[1px] border-slate-700 hover:bg-gray-800 p-2 rounded-lg hover:cursor-pointer'>
                   <div className='flex items-center space-x-3'>
                     <div className='h-8 w-8 rounded-full  flex justify-center items-center'>
                       {transaction.icon}
