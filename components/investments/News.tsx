@@ -16,7 +16,7 @@ const News = () => {
 
   useEffect(() => {
     const fetchNews = async () => {
-      const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${process.env.NEWS_API_KEY}`)
+      const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=eac802e958784b3a93f392935c4ec3e4`)
       const data = await res.json()
       setNews(data.articles)
       console.log(data.articles)

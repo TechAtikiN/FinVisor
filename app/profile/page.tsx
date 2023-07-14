@@ -23,7 +23,7 @@ const Profile = () => {
       </div>
 
       {/* personal info */}
-      <div className='p-5 col-span-3 w-3/4 rounded-lg mt-5 bg-[#262631]'>
+      <div className='p-5 col-span-3 w-3/4 h-[370px] rounded-lg mt-5 bg-[#262631]'>
         <div className='flex justify-between'>
           <p className='text-2xl font-semibold text-gray-300'>Personal Information</p>
           <button className='flex items-center space-x-3 mr-16 border border-gray-200 rounded-full px-3 py-2'><span className='text-xl font-semibold'>Edit</span> <PencilSquareIcon className='h-7 w-7' /></button>
@@ -57,7 +57,7 @@ const Profile = () => {
       </div>
 
       {/* address */}
-      <div className='p-5 col-span-3 w-3/4 rounded-lg mt-5 bg-[#262631]'>
+      <div className='p-5 col-span-3 w-3/4 h-[300px] rounded-lg mt-5 bg-[#262631]'>
         <div className='flex justify-between'>
           <p className='text-2xl font-semibold text-gray-300'>Address</p>
           <button className='flex items-center space-x-3 mr-16 border border-gray-200 rounded-full px-3 py-2'><span className='text-xl font-semibold'>Edit</span> <PencilSquareIcon className='h-7 w-7' /></button>
